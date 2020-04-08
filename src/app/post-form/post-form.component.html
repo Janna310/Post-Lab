@@ -1,0 +1,11 @@
+<p>post-form works!</p>
+<form #postForm="ngForm" class="thoughtForm" (ngSubmit)="submitPost(postForm)">
+  <input type="text" class="titleInput" name="titleIn" placeholder="title" />
+  <input
+    type="text"
+    class="thoughtInput"
+    name="thoughtIn"
+    placeholder="thoughts here"
+  />
+  <button class="thoughtSubmit">Add Thought</button>
+</form>
